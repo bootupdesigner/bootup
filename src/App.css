@@ -1,0 +1,46 @@
+ body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+a:link, a:visited {
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #c0a134;
+}
+
+/* homepage fading banner */
+.react-slideshow-container {
+  background-image: url("https://cdn.pixabay.com/photo/2016/12/01/13/10/lightbulb-1875247_960_720.jpg"); background-repeat: no-repeat; background-position: 50% 50%;
+}
+
+div.each-fade {
+  display: flex; flex-direction: column;
+  justify-content: center; align-items: center; align-content: center; height:300px;   
+}
+
+button.nav.default-nav {
+  display: none;
+}
+
+/* we support small business banner */
+
+h3.smallbusiness {
+  background-image: url("https://www.supportblackowned.com/images/2021/06/02/collage%20black%20owners.png"); 
+  background-repeat: no-repeat; background-position: 70% 70%; height: 300px;
+  width: 100%; color: #fff; display: flex; flex-direction: column; justify-content: center; 
+  border-radius: 3px; background-attachment: fixed; 
+}
+
+/* .blog {
+  margin: 10px auto;
+  width: 75vw;
+} */
+
+/* this area is for the footer  */
+.footer {
+   color: white; 
+  }
