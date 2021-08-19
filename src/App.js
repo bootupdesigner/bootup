@@ -10,6 +10,8 @@ import Faqs from './components/Faqs';
 import SeoImprovement from './components/SeoImprovement';
 import EmailDesign from './components/EmailDesign';
 import Revamp from './components/Revamp';
+import StoreDesigns from './components/StoreDesigns';
+import BookingDesigns from './components/BookingDesigns';
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -38,6 +40,8 @@ function App() {
         <Route exact path="/seoimprovement" component={SeoImprovement} />
         <Route exact path="/emaildesign" component={EmailDesign} />
         <Route exact path="/revamp" component={Revamp} />
+        <Route exact path="/storedesigns" component={StoreDesigns} />
+        <Route exact path="/bookingdesigns" component={BookingDesigns} />
       </Switch>
       <Footer />
     </Router>

@@ -18,9 +18,13 @@ const Menu = () => {
           <NavDropdown.Item href="/revamp">Website Revamps</NavDropdown.Item>
         </NavDropdown>
 
+            <NavDropdown title="Website Designs" id="basic-nav-dropdown">
+          <NavDropdown.Item href="/bookingdesigns">Booking and API Designs</NavDropdown.Item>
+          <NavDropdown.Item href="/storedesigns">E-commerce and Informational Designs</NavDropdown.Item>
+        </NavDropdown>
+
             <Nav.Link href="/#request-a-quote">Request a Quote</Nav.Link>
             <Nav.Link href="/Request">Schedule a Consultation</Nav.Link>
-            <Nav.Link href="/#websitedesigns">Website Designs</Nav.Link>
             <Nav.Link href="/Faqs">FAQs</Nav.Link>
           </Nav>
         </Navbar.Collapse>

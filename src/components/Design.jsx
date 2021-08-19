@@ -7,7 +7,7 @@ const Design = (props) => {
             url: "https://cdn.pixabay.com/photo/2017/07/31/22/59/people-2561845_960_720.jpg",
             title: "Booking and Scheduling",
             description: "",
-            link:"/BookingDesign",
+            link:"/BookingDesigns",
             button: "Learn more about Booking Websites",
             alt: "women at hair salon appointment"
         },
@@ -15,7 +15,7 @@ const Design = (props) => {
             url: "https://cdn.pixabay.com/photo/2015/10/12/15/18/store-984393_960_720.jpg",
             title: "Online Stores",
             description: "", 
-            link:"/StoreDesign",
+            link:"/StoreDesigns",
             button: "Learn more about Online Stores",
             alt: "clothing store with arranged clothing"
         },
@@ -23,7 +23,7 @@ const Design = (props) => {
             url: "https://cdn.pixabay.com/photo/2016/07/05/23/45/inside-1499607_960_720.jpg",
             title: "Informational Websites",
             description: "",
-            link: "/InformationDesign",
+            link: "/StoreDesigns",
             button: "Learn more about Informational Websites",
             alt: "conference desk ready for a meeting"
         }
