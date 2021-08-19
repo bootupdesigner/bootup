@@ -6,7 +6,7 @@ const EmailDesign = () => {
         <div>
         <div className="bg-secondary text-white text-center">
           <h1>Email Blast Designs</h1>
-          <p>Become More Accessible to your Customers</p>
+          <p>Invite customers to yuor website through email</p>
         </div>
            
         <Row className="mx-3 justify-content-center">
