@@ -5,6 +5,7 @@ import Banner from "./Banner";
 import SmallBusiness from "./SmallBusiness";
 import AboutUs from './AboutUs';
 import Contact from './Contact';
+import Reviews from './Reviews';
 
 const BootUp = () => {
     return (
@@ -18,6 +19,8 @@ const BootUp = () => {
         <Design />
         <SmallBusiness />
         <AboutUs />
+        <h2 className="text-center">Real Facebook Reviews</h2>
+        <Reviews />
         <Contact />
     
       </div>
