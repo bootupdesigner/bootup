@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 
 import BootUp from './components/BootUp';
 import Request from './components/Request';
@@ -30,21 +30,21 @@ library.add(fab, faFacebookMessenger, faFacebookF, faTwitter, faLinkedinIn);
 
 function App() {
   return (
-    <Router>
+    <div>
       <Menu />
       <Header />
-      <Switch>
-        <Route exact path="/" component={BootUp} />
-        <Route exact path="/request" component={Request} />
-        <Route exact path="/faqs" component={Faqs} />
-        <Route exact path="/seoimprovement" component={SeoImprovement} />
-        <Route exact path="/emaildesign" component={EmailDesign} />
-        <Route exact path="/revamp" component={Revamp} />
-        <Route exact path="/storedesigns" component={StoreDesigns} />
-        <Route exact path="/bookingdesigns" component={BookingDesigns} />
-      </Switch>
+      <Routes>
+        <Route  path="/" element={ <BootUp /> } />
+        <Route  path="/request" element={ <Request /> } />
+        <Route  path="/faqs" elementt={ <Faqs /> } />
+        <Route  path="/seoimprovement" element={ <SeoImprovement /> } />
+        <Route  path="/emaildesign" element={ <EmailDesign /> } />
+        <Route  path="/revamp" element={ <Revamp /> } />
+        <Route  path="/storedesigns" element={ <StoreDesigns /> } />
+        <Route  path="/bookingdesigns" element={ <BookingDesigns /> } />
+      </Routes>
       <Footer />
-    </Router>
+      </div>
   );
 }
 
